@@ -1,0 +1,64 @@
+
+.rectangulo {
+    background-color:black;
+    border-style: ridge;
+    border-color:rgb(247, 4, 4);
+    border-radius: 10px 10px 10px 10px;
+    width: auto;
+    height: 80px;
+    }
+
+.a {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border: 5px white solid;
+    border-radius: 3px;
+}
+
+.formas {
+    display: webkit-flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    border-style:solid;
+    border-color:lightpink;
+    box-shadow: 5px 5px 5px grey;
+    
+}
+
+.cuadrado1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(111, 162, 240, 0.829);
+    box-shadow: 5px 5px 5px grey;
+   
+}
+
+.triangulo3 {
+    width: 0;
+    height: 0;
+    border-left: 100px solid rgb(18, 88, 145);
+    border-top: 50px solid #f0ad4e;
+    border-bottom: 50px solid red;
+    box-shadow: 5px 5px 5px grey;
+    
+}
+
+.torta {
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #f0ad4e;
+    border-left: 50px solid  rgb(18, 88, 145);
+    border-bottom: 50px solid red;
+    border-radius: 100%;
+
+}
