@@ -6,21 +6,44 @@
     border-radius: 10px 10px 10px 10px;
     width: auto;
     height: 80px;
+    display: flex;
+    align-items: center;
+    
+}    
+
+.rectangulo li{
+    width: 100px;
+    height: 20px;
+    padding: 80px;
+    border-color: 5px red;
+    text-align: center;
+    
+}
+
+.rectangulo a{
+    color:white;
+    font-family: sans-serif;
+    text-decoration: none;
+       
+}
+
+.rectangulo a:hover {
+    background-color: black;
+    border: 5px red;
+    border-radius: 3%;
     }
 
-.a {
-    width: 10px;
-    height: 10px;
-    background-color: black;
-    border: 5px white solid;
-    border-radius: 3px;
+.figuras {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+            
 }
 
 .formas {
-    display: webkit-flex;
-    align-items: center;
-    padding: 20px;
-    
+    padding: 1%;
+    justify-self: center;
 }
 
 .circulo {
@@ -39,7 +62,7 @@
     height: 100px;
     background-color: rgba(111, 162, 240, 0.829);
     box-shadow: 5px 5px 5px grey;
-   
+    
 }
 
 .triangulo3 {
