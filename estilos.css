@@ -21,17 +21,18 @@
 }
 
 .rectangulo a{
-    color:white;
+    color:red;
     font-family: sans-serif;
-    text-decoration: none;
-       
+    font-size: 12px;
+   
+    border-radius: 5px 5px 5px 5px;
+    
 }
 
-.rectangulo a:hover {
-    background-color: black;
-    border: 5px red;
-    border-radius: 3%;
-    }
+.encabezado a {
+    background-color:none;
+     
+}
 
 .figuras {
     
